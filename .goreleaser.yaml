@@ -13,7 +13,7 @@ before:
     - go mod tidy
 
 builds:
-  skip: true
+  - skip: true
 
 archives:
   - format: tar.gz
